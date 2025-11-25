@@ -22,3 +22,9 @@ elif opcao == 2:
     frete = float(input("Digite o valor do frete: R$ "))
     resultado = funcoes.calcular_total(valor, frete)
     print("Valor total:", funcoes.formatar_moeda(resultado))
+
+elif opcao == 3:
+    print("Saindo do sistema...")
+
+else:
+    print("Opção inválida!")
